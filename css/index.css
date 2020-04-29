@@ -8,6 +8,9 @@ header{
     font-size: .4rem;/*对定位有影响*/
     padding: 0rem .426667rem 0rem .426667rem;
 }
+header .logo h1,header .login{
+    color: white;
+}
 header .logo h1,header .login a{
     font-size: .4rem;
     color: white;
