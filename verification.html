@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/verification.css">
+    <script>
+        // rem适配
+        window.onload = function(){
+            let fs = document.documentElement.clientWidth * 75 / 750;
+            document.querySelector("html").style.fontSize = fs + "px";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <a href="./index.html" class="left"><img src="./img/back_logo.png" alt=""></a>
+        <p>验证手机号</p>
+        <a href="#" class="right"><img src="./img/sdx.png" alt=""></a>
+    </header>
+    <div class="zg">
+        <div class="son"><img src="./img/login_img.png" alt=""></div>
+    </div>
+    <p class="text">请输入手机号:</p>
+    <div class="input_box">
+        <input type="number" placeholder="请输入手机号码">
+    </div>
+    <div class="next">
+        <input type="submit" value="下一步">
+    </div>
+    <p class="end">阅读并同意《招财猫理财用户使用及隐私协议》</p>
+    <div class="foot">
+        <a href="">触屏版|电脑版|APP下载</a>
+        <p>2017招财猫理财 浙ICP备14041616号</p>
+    </div>
+</body>
+</html>
