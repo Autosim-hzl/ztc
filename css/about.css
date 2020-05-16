@@ -1,0 +1,37 @@
+header{
+    top: 0rem;
+    height: 1.226667rem;
+    display: flex;
+    align-items: center;
+    background-color: #FA3432;
+    font-size: .373333rem;
+    color: #ffffff;
+}
+.left{
+    width: .626667rem;
+    height: .493333rem;
+    margin-left: 30px;
+}
+.right{
+    width: .626667rem;
+    height: .493333rem;
+    margin-right: .506667rem;
+}
+header p{
+    text-align: center;
+    flex: 1;
+}
+header a img{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    width: 3.2rem;
+    height: 1.733333rem;
+    font-size: .533333rem;
+    color: #525151;
+    border-bottom: 3px solid #fdb870;
+    margin: auto;
+    text-align: center;
+    padding-top: .773333rem;
+}
